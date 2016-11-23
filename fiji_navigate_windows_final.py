@@ -332,9 +332,7 @@ try:
 						
 	xJoy, yJoy, rJoy, buttonA, buttonB, buttonX, buttonY, buttonL, buttonR, legangle, pitch = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
-	#path = '/media/peterpark/PeterParkHD/Work/dataForPeter/export.xml'
-	path=r'D:\Work\dataForPeter\export.xml'
-	#path = r'C:\Work\export.xml'
+	path="INSERT YOUR PATH"
 	## Navigation using Big Data Viewer 
 	bdv = BigDataViewer(path, 'BDV Title', ProgressWriterConsole())
 	v = bdv.getViewer()
