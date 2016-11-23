@@ -30,7 +30,6 @@ print "Connecting to PORT:" + index_str + "..."
 PORT=int(index_str)
 
 HOST = '' # Symbolic name meaning all available interfaces
-#PORT = 2010 # Arbitrary non-previledged port
 
 
 clientsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
