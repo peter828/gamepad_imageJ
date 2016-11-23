@@ -321,7 +321,7 @@ try:
 
 	# Connect to the localhost
 	PORT = randint(1111,9999)
-	file = open("INSERT YOUR PATH",'w')
+	file = open("INSERT YOUR CURRENT DIRECTORY",'w')
 	file.write(str(PORT))
 	file.close()
 	print "Socket Index: "+ str(PORT) 
@@ -332,7 +332,7 @@ try:
 						
 	xJoy, yJoy, rJoy, buttonA, buttonB, buttonX, buttonY, buttonL, buttonR, legangle, pitch = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
-	path="INSERT YOUR PATH"
+	path="INSERT YOUR PATH TO DATA"
 	## Navigation using Big Data Viewer 
 	bdv = BigDataViewer(path, 'BDV Title', ProgressWriterConsole())
 	v = bdv.getViewer()
