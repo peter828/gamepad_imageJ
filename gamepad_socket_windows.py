@@ -67,8 +67,6 @@ while (not done):
 			
 
 	# Button
-	# if event.type == pygame.JOYBUTTONDOWN:
-
 	pf.cleanSend(clientsocket, ['button', "a", jstick.get_button(0)])
 	receiverMessage = pf.cleanReceive(clientsocket)
 
